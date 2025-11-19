@@ -1,0 +1,1 @@
+exports.config = require('.config/tiketcom-ui.conf.ts').config;
