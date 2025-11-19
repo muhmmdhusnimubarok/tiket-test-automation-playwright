@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "types": ["node", "codeceptjs"]
+  },
+  "include": [
+    "tests/**/*.ts",
+    "config/**/*.ts",
+    "steps_file.ts",
+    "steps.d.ts",
+    "codecept.conf.ts"
+  ]
+}
